@@ -49,5 +49,5 @@ This project implements a series of functions and an HTTP server as described in
 3. wordCount(filePath: string): Promise<Record<string, number>>
    This function reads a text file and returns a record where the keys are words and the values are the number of times each word appears in the file.
 
-4. getTaggedContent(tag: string): string[]
+4. findContent(tag: string): string[]
    This function retrieves all documents associated with a given tag and its sub-tags.
